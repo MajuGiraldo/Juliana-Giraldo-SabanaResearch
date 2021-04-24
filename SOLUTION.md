@@ -70,3 +70,17 @@ public final String nombreMetodo();
    * @return la duración de las actividades de un estudiante o iteración en un  proyecto.
 
  */
+
+## EXTENDIENDO
+
+![image](https://user-images.githubusercontent.com/78317998/115973099-3613d680-a518-11eb-973d-4f5a1a11c3bd.png)
+
+De los diseños resultantes del punto I y II, ¿Qué debe cambiar? ¿Qué no debe cambiar?
+
+RTA/ En cuanto a los diagramas de secuencia del punto anterior lo que deberia cambiar es la forma de calcular la duración de una actividad o iteración, ya que ahora al tener prerequisitos se debe aplicar un condicional que indique si esa actividad o iteración tiene algun prerequisito, y en el caso de que esto sea cierto se deberia recurrir al método getEstimatedEndDate(), ya sea de una actividad o iteración para así modificar o "actualizar" la duración de dicha clase. Por el contrario, lo que no deberia cambiar son los métodos summarize() y synthetize(), ya que independientemente de como se obtenga la duración de la iteración o proyecto estos métodos llamaran al método que genere la duración mediante un loop.
+
+Por otro lado, el diagrama de clases del punto anterior lo que deberia cambiar, o mejor dicho adicionar, es una clase abstracta que se refiera a la dependencia o prerequisito ya sea de una actividad o de una iteración y que esta a su vez tenga un método abstracto llamado "getEstimatedEndDate()" que retorne la fecha de finalización estimada para dicha actividad o iteración, también se de debe añadir una relación de uno a varios entre la clase iteración y la clase abstracta dependencia, dando a entender que una iteración puede tener muchas dependencias. Por último, lo que no deberia cambiar del diagrama de clases son las demás clases involucradas que no tienen ninguna relación directa con la clase abstracta dependencia, como por ejemplo: Student, Project y la interfaz ISynthetizer.
+
+Teniendo en cuenta los cambios necesarios ¿Que fue bueno y que fue malo de su diseño?
+
+RTA/ Considero que en general los diagramas de secuencia y el complemento del diagrama de clases fue pertinente para este proyecto de sabana research debido a que es una buena guia para basarse al momento de realizar el código, y aunque haya necesitado algunos cambios, estos se pudieron integrar con facilidad a los diseños ya establecidos sin tener que cambiar todo el diseño. Sin embargo, considero también que el diseño pudo haber sido mejor si por ejemplo se implementara una interfaz que abstrayera la duración de las actividades para las clases Activity e Iteration y que estas no repetieran el método getActivitiesDuratio(), entre otros cambios que podrían mejorar un poco más el código.
