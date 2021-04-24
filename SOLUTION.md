@@ -28,3 +28,45 @@ RTA/ La sobre-escritura de métodos u override es una caracteristica que le perm
 Para impedir que se sobre-escriba un método solo basta con hacer ese método final, y ya con esto ninguna clase podra hacer override de ese método. Por ejemplo:
 
 public final String nombreMetodo();
+
+## DISEÑO
+
+1. Método summarize()
+
+/**
+   * Resume la informacion del tiempo invertido de un estudiante en un proyecto o la duración de cada iteración en un proyecto.
+   *
+   * @return la duración de un estudiante o iteración en un  proyecto.
+
+ */
+
+2. Diagramas de secuencia
+
+![image](https://user-images.githubusercontent.com/78317998/115964705-58432f80-a4eb-11eb-92b3-a263dcbe984d.png)
+
+
+![image](https://user-images.githubusercontent.com/78317998/115965017-c3d9cc80-a4ec-11eb-855f-874d2b1fb485.png)
+
+
+3. Diagrama de clases actualizado
+
+![image](https://user-images.githubusercontent.com/78317998/115966646-3601df80-a4f4-11eb-9c14-f694e1713b78.png)
+
+
+4. Método synthetize()
+
+/**
+   * Resume la informacion de un estudiante o de una iteración dentro de un proyecto.
+   *
+   * @return la duración de un estudiante o iteración en un  proyecto.
+
+ */
+ 
+ Método getActivitiesDuration()
+ 
+ /**
+   * Calcula la duración de las actividades de un estudiante o iteracion en un proyecto.
+   *
+   * @return la duración de las actividades de un estudiante o iteración en un  proyecto.
+
+ */
