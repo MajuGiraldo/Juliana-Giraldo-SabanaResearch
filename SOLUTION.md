@@ -41,6 +41,11 @@ Para impedir que se sobre-escriba un método solo basta con hacer ese método fi
 
 public final String nombreMetodo();
 
+## MAPA DE MEMORIA
+
+![image](https://user-images.githubusercontent.com/78317998/115974662-cc012e80-a523-11eb-87d1-fa9897c8f14d.png)
+
+
 ## DISEÑO
 
 1. Método summarize()
