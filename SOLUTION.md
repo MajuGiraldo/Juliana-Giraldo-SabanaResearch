@@ -48,6 +48,10 @@ public final String nombreMetodo();
 
 ## DISEÑO
 
+![image](https://user-images.githubusercontent.com/78317998/116015211-1ce55580-a5fe-11eb-9206-eab5bf96bcd3.png)
+
+
+
 1. Método summarize()
 
 /**
