@@ -45,6 +45,24 @@ public final String nombreMetodo();
 
 ![image](https://user-images.githubusercontent.com/78317998/115974662-cc012e80-a523-11eb-87d1-fa9897c8f14d.png)
 
+## IMPLEMENTACIÓN
+
+1. Pruebas SabanaReasearchTest parcial 1
+
+![image](https://user-images.githubusercontent.com/78317998/116023093-1f04df80-a611-11eb-8c81-4e9443a49836.png)
+
+2. Pruebas BonoTest parcial 1
+
+![image](https://user-images.githubusercontent.com/78317998/116023238-5d020380-a611-11eb-81d9-1b02fc68ca57.png)
+
+3. Pruebas ProjectTest parcial 2
+
+![image](https://user-images.githubusercontent.com/78317998/116023328-8458d080-a611-11eb-93a4-fb8fdcadab2f.png)
+
+4. Pruebas BonoTest parcial 2
+
+![image](https://user-images.githubusercontent.com/78317998/116023474-c4b84e80-a611-11eb-95f6-6cdf6fde6b21.png)
+
 
 ## DISEÑO
 
